@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(2, 169, 234)
+    }
+h1 {
+    font-family: 'Courier New', Courier, monospace
+    }
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+.organizado {
+            font-size: 25px;
+        }
+.focado {
+            font-size: 22.5px;
+        }
+.criativo {
+            font-size: 20px;
+         }
+.paciente {
+            font-size: 17.5px;
+        }
