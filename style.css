@@ -2,9 +2,51 @@ body {
     background-color: rgb(192, 210, 250);
     margin: 1%
     }
-h4 {
+.barraSuperior {
+        border: 1px solid brown;
+        
+    }   
+    .navegacao {
+        display: inline-block;
+    }    
+    main {
+        background-color: lightsteelblue;
+        overflow: auto;
+    }
+    section {
+        border: 2px solid yellow;
+    }
+    .foto {
+        float: left;
+        height: 280px;
+        padding: 10px;
+        background-color: rgb(24, 105, 255)
+    }
+    .image-container {
+        height: 300px;
+        position: relative;
+    }  
+    .meuNome {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .descricao {
+        position:absolute;
+        top: 36%;
+        right: 8%;
+    
+    }
+.skills-title-section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
+    section ul li:nth-child(odd) {
+        background-color: lightgreen;
+    }
+    .Lista {
+        position: relative;
+        margin-left: 50%;
+        }
+
 .organizado {
             font-size: 25px;
         }
@@ -17,42 +59,4 @@ h4 {
 .paciente {
             font-size: 17.5px;
         }
-div {
-    border: 2px solid yellow;
-}
-.foto {
-    float: left;
-    height: 280px;
-    padding: 10px;
-    background-color: rgb(24, 105, 255)
-}
-.image-container {
-    height: 300px;
-    position: relative;
-}  
-.meuNome {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.descricao {
-    position:absolute;
-    top: 36%;
-    right: 8%;
 
-}
-.barraSuperior {
-    border: 1px solid brown;
-}   
-.navegacao {
-    display: inline-block;
-}
-.Lista {
-position: relative;
-margin-left: 50%;
-}
-article ul li:nth-child(odd) {
-    background-color: lightgreen;
-}
-section {
-    overflow: scroll;
-}
